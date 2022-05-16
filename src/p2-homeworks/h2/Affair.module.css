@@ -1,0 +1,11 @@
+.affair {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.delButton {
+    width: 22px;
+    height: 22px;
+    margin-bottom: 3px;
+}

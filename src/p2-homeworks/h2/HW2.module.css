@@ -1,0 +1,10 @@
+button {
+    border: 1.5px solid darkgrey;
+    border-radius: 6px;
+    outline: none;
+}
+
+button:active {
+    border: 1px solid #c2c2c2;
+    color: #c2c2c2;
+}

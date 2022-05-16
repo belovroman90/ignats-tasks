@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+    background: linear-gradient(to bottom, #A2F57A, #2DBD6E);
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 260px;
+    width: 250px;
+    background-color: #FBFBFB;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+.title {
+    margin-top: 35px;
+    font-size: 1rem;
+}
+
+.input {
+    outline: none;
+    border: none;
+    height: 20px;
+    width: 190px;
+    margin-top: 50px;
+    padding: 0 0 0 6px;
+    border-bottom: 1px solid #929292;
+}
+
+.input::placeholder {
+    color: #c2c2c2;
+    font-size: 0.7rem;
+}
+
+.errorInput {
+    border-bottom: 1px solid red;
+}
+.errorInput::placeholder {
+    color: red;
+}
+
+.count {
+    align-self: center;
+    margin-top: 15px;
+}
+
+.countError {
+    align-self: center;
+    margin-top: 15px;
+    color: red;
+}
+
+.button {
+    height: 35px;
+    width: 105px;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background: linear-gradient(to right, #A2F57A, #2DBD6E);
+}
+.button:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, #67f123, #09b858);
+}
+.button:active {
+    transform: scale(0.95, 0.95);
+}
+.button:focus {
+    outline: 0.3px solid #b8b8b8;
+}
