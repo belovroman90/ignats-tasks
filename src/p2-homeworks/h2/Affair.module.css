@@ -4,8 +4,11 @@
     width: 250px;
 }
 
-.delButton {
+.smallButton {
+    padding: 0;
+    margin-bottom: 10px;
+    min-height: 22px;
     width: 22px;
-    height: 22px;
-    margin-bottom: 3px;
+    font-size: 0.7rem;
+    background-color: #2179c4;
 }

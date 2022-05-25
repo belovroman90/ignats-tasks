@@ -1,5 +1,15 @@
-.superInput {
-
+.input {
+    height: 40px;
+    min-width: 230px;
+    padding-left: 13px;
+    margin: 20px 0 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    border: 1.5px solid #b4b4b4;
+    color: #525252;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.03rem;
 }
 
 .errorInput {

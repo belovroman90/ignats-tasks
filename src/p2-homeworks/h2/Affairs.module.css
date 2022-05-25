@@ -10,6 +10,10 @@
     border-radius: 20px;
 }
 
+.affairs {
+    margin-top: 10px;
+}
+
 .groupButton {
     margin-top: 10px;
 }
@@ -20,4 +24,13 @@ button {
 
 button:last-child {
     margin-right: 0;
+}
+
+.filterButton {
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 35px;
+    background: #2179c4;
 }

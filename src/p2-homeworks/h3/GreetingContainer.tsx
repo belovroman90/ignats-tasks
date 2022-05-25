@@ -28,8 +28,6 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
         setName('');
     }
 
-    console.log(users);
-
     const totalUsers = users.length // need to fix
 
     return (

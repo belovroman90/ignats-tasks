@@ -1,7 +1,70 @@
 .default {
+    /*background: #FF4742;*/
+    border: 1px solid #1899D6;
+    background: #1899D6;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    margin-bottom: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
 
+.default:hover,
+.default:active {
+    background-color: initial;
+    color: #1899D6;
+}
+
+.default:active {
+    opacity: .5;
 }
 
 .red {
-    background: red;
+    border: 1px solid #FF4742;
+    background: #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    margin-bottom: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.red:hover,
+.red:active {
+    background-color: initial;
+    color: #FF4742;
+}
+
+.red:active {
+    opacity: .5;
+}
+
+.disabled {
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 600;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    margin-bottom: 15px;
+    text-align: center;
+    vertical-align: middle;
 }
