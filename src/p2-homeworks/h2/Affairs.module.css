@@ -16,21 +16,37 @@
 
 .groupButton {
     margin-top: 10px;
-}
-
-button {
-    margin-right: 5px;
-}
-
-button:last-child {
-    margin-right: 0;
+    padding: 0;
 }
 
 .filterButton {
+    border: 1px solid #1899D6;
+    background: #006cc6;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    min-height: 40px;
+    cursor: pointer;
     font-size: 0.9rem;
-    font-weight: 400;
-    padding-top: 0;
-    padding-bottom: 0;
-    min-height: 35px;
-    background: #2179c4;
+    font-weight: 600;
+    outline: 0;
+    padding: 0 15px;
+    margin: 0 3px 15px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.filterButton:hover,
+.filterButton:active {
+    background-color: initial;
+    color: #1899D6;
+}
+
+.filterButton:active {
+    opacity: .5;
+}
+
+.filterButton:last-of-type {
+    margin-right: 0;
 }

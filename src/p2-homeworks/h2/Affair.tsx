@@ -20,8 +20,8 @@ function Affair(props: AffairPropsType) {
             <span className={s.title}>{`${props.affair.name} in ${props.affair.priority} priority`}</span>
 
             <SuperButton
-                className={s.smallButton}
                 onClick={deleteCallback}
+                className={s.smallButton}
             >x</SuperButton>
         </div>
 )

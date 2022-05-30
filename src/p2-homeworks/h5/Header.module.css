@@ -1,3 +1,11 @@
+.menu {
+    margin: 25px 0;
+    border: 1px solid black;
+    min-width: 280px;
+    display: inline-block;
+    position: relative;
+}
+
 .a {
     margin: 15px;
 }

@@ -2,13 +2,34 @@
     display: flex;
     justify-content: space-between;
     width: 250px;
+    height: 33px;
 }
 
 .smallButton {
+    border: 1px solid #1899D6;
+    background: #006cc6;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    font-size: 0.6rem;
+    font-weight: 600;
+    outline: 0;
     padding: 0;
-    margin-bottom: 10px;
-    min-height: 22px;
-    width: 22px;
-    font-size: 0.7rem;
-    background-color: #2179c4;
+    margin-bottom: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.smallButton:hover,
+.smallButton:active {
+    background-color: initial;
+    color: #1899D6;
+}
+
+.smallButton:active {
+    opacity: .5;
 }
