@@ -1,16 +1,74 @@
-.menu {
-    margin: 25px 0;
-    border: 1px solid black;
-    min-width: 280px;
-    display: inline-block;
+.container {
+    min-height: 50px;
     position: relative;
+    margin-bottom: 40px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding: 0 7px 0 35px;
+    list-style: none;
+    margin: 20px 0 0 0;
+    background-color: #f5f1f1;
+    width: 110px;
+    border: 1px solid #ececec;
+    border-radius: 0 0 15px 0;
+    font-weight: 600;
+    user-select: none;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    z-index: 1;
+    transform: translateX(-9.7em);
+    position: absolute;
+    transition: all 0.35s ease-in-out 0s, linear 0.35s, z-index 0s linear 0.01s;
+}
+
+.menu:after {
+    content: '';
+    background: url("./icons8-moon.svg");
+    background-size: contain;
+    background-position: center;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    position: absolute;
+    top: -1px;
+    right: -41px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff27f;
+}
+
+.menu:hover:after {
+    background-color: #aaff50;
+}
+
+.menu:hover {
+    transform: translateX(0);
+}
+
+.linkItem {
+    margin: 5px 0;
+}
+
+.linkItem:hover {
+    opacity: 0.8;
+}
+
+.linkItem:first-of-type {
+    margin-top: 30px;
+}
+
+.linkItem:last-of-type {
+    margin-bottom: 30px;
 }
 
 .a {
-    margin: 15px;
+    text-decoration: none;
+    color: #3e3e3e;
 }
 
 .active {
-    margin: 15px;
-    color: red;
+    color: #d00000;
+    text-decoration: none;
 }
