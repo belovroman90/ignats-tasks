@@ -1,0 +1,18 @@
+.span {
+    user-select: none;
+    display: flex;
+    align-items: center;
+    margin: 0 10px 0 0;
+    padding-top: 18.5px;
+}
+
+.span:before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url("./pencil 1.png") center no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+    margin: 0 10px 0 0;
+}

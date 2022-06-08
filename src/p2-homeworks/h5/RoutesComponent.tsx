@@ -4,7 +4,6 @@ import PreJunior from "./pages/PreJunior";
 import Error404 from "./pages/Error404";
 import {Junior} from "./pages/Junior";
 import {JuniorPlus} from "./pages/JuniorPlus";
-import {MainPage} from "./pages/MainPage";
 
 export const PATH = {
     MAIN_PAGE: '/',
@@ -19,7 +18,6 @@ function RoutesComponent() {
     return (
         <>
             <Routes>
-                {/*<Route path={PATH.MAIN_PAGE} element={<MainPage/>}/>*/}
                 <Route path="/" element={<Navigate to={PATH.PRE_JUNIOR}/>}/>
                 <Route path={PATH.PRE_JUNIOR} element={<PreJunior/>}/>
                 <Route path={PATH.JUNIOR} element={<Junior/>}/>

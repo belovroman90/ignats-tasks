@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import RoutesComponent from './RoutesComponent'
-import {BrowserRouter, HashRouter} from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 
 function HW5() {
     return (
@@ -18,4 +18,4 @@ function HW5() {
     )
 }
 
-export default HW5
+export default HW5;
