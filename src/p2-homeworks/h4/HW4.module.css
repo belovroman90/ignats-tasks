@@ -28,3 +28,7 @@
 .testSpanError {
     color: blue;
 }
+
+.buttonMarginBottom {
+    margin-bottom: 15px;
+}

@@ -39,19 +39,25 @@ function HW4() {
 
                 {/*----------------------------------------------------*/}
 
-                <SuperButton>
+                <SuperButton
+                    className={s.buttonMarginBottom}
+                >
                     default
                 </SuperButton>
 
                 <SuperButton
                     red // пропсу с булевым значением не обязательно указывать true
                     onClick={showAlert}
+                    className={s.buttonMarginBottom}
                 >
                     delete
                     {/*// название кнопки попадёт в children*/}
                 </SuperButton>
 
-                <SuperButton disabled>
+                <SuperButton disabled
+                             className={s.buttonMarginBottom}
+
+                >
                     disabled
                 </SuperButton>
 

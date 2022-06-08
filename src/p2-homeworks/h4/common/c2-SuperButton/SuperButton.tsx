@@ -16,9 +16,9 @@ const SuperButton: React.FC<SuperButtonPropsType> = (
     }
 ) => {
 
-    let finalClassName = className ? className : s.default;
+    let finalClassName = className ? `${className} ${s.default}` : s.default;
     if (red) {
-        finalClassName = `${s.default} ${s.red}`;
+        finalClassName = `${s.default} ${s.red} ${className}`;
     }
     if (restProps.disabled) {
         finalClassName = `${s.default} ${s.disabled}`;
