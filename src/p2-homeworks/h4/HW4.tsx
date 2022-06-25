@@ -5,7 +5,7 @@ import SuperButton from './common/c2-SuperButton/SuperButton'
 import SuperCheckbox from './common/c3-SuperCheckbox/SuperCheckbox'
 
 function HW4() {
-    const [text, setText] = useState<string>('some')
+    const [text, setText] = useState<string>('some text')
     const error = text ? '' : 'error';
 
     const showAlert = () => {
@@ -40,24 +40,19 @@ function HW4() {
                 {/*----------------------------------------------------*/}
 
                 <SuperButton
-                    className={s.buttonMarginBottom}
+                    className={s.buttonDefault}
                 >
                     default
                 </SuperButton>
 
                 <SuperButton
                     red // пропсу с булевым значением не обязательно указывать true
-                    onClick={showAlert}
-                    className={s.buttonMarginBottom}
-                >
+                    onClick={showAlert}>
                     delete
                     {/*// название кнопки попадёт в children*/}
                 </SuperButton>
 
-                <SuperButton disabled
-                             className={s.buttonMarginBottom}
-
-                >
+                <SuperButton disabled>
                     disabled
                 </SuperButton>
 

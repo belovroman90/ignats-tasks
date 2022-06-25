@@ -28,6 +28,7 @@
 .red {
     border: 1px solid #FF4742;
     background: #FF4742;
+    margin-bottom: 15px;
 }
 
 .red:hover,
@@ -42,6 +43,7 @@
     color: #d9dadc;
     cursor: initial;
     box-shadow: none;
+    margin-bottom: 15px;
 }
 
 .disabled:hover,

@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectBlock {
+    margin: 20px 0;
+}
+
+.select {
+    min-width: 60px;
+    min-height: 25px;
+    padding: 0 5px;
+    border-radius: 15px;
+    border: 1px solid #a3a3a3;
+    outline: none;
+}

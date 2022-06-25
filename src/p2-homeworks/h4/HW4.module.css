@@ -29,6 +29,30 @@
     color: blue;
 }
 
-.buttonMarginBottom {
+.buttonDefault {
     margin-bottom: 15px;
+    border: 1px solid #1899D6;
+    background: #1899D6;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    min-height: 40px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.buttonDefault:hover,
+.buttonDefault:active {
+    background-color: initial;
+    color: #1899D6;
+}
+
+.buttonDefault:active {
+    opacity: .5;
 }
