@@ -1,0 +1,49 @@
+.main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0 25px 40px;
+}
+
+.list {
+    margin: 0 0 25px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.button {
+    border: 1px solid #1899D6;
+    background: #1899D6;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    min-height: 30px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    outline: 0;
+    padding: 8px 12px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.button:last-of-type {
+    margin-right: 0;
+}
+
+.button:hover,
+.button:active {
+    background-color: initial;
+    color: #1899D6;
+}
+
+.button:active {
+    opacity: .5;
+}
+
+.check18 {
+    margin: 5px 0;
+}
