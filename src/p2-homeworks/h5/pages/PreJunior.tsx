@@ -10,12 +10,12 @@ import {HW8} from "../../h8/HW8";
 function PreJunior() {
     return (
         <div>
-            {/*<HW1/>*/}
-            {/*<HW2/>*/}
-            {/*<HW3/>*/}
-            {/*<HW4/>*/}
-            {/*<HW6/>*/}
-            {/*<HW7/>*/}
+            <HW1/>
+            <HW2/>
+            <HW3/>
+            <HW4/>
+            <HW6/>
+            <HW7/>
             <HW8/>
         </div>
     )
