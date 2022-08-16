@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/ignats-tasks/static/css/main.43e70093.css",
-    "main.js": "/ignats-tasks/static/js/main.34c9ac72.js",
-    "static/media/pencil 1.png": "/ignats-tasks/static/media/pencil 1.40b150c22ef6ac81b9c5.png",
+    "main.css": "/ignats-tasks/static/css/main.282ed36c.css",
+    "main.js": "/ignats-tasks/static/js/main.260a1c90.js",
     "static/media/icons8-moon.svg": "/ignats-tasks/static/media/icons8-moon.037702b062b1731b7692.svg",
     "index.html": "/ignats-tasks/index.html",
-    "main.43e70093.css.map": "/ignats-tasks/static/css/main.43e70093.css.map",
-    "main.34c9ac72.js.map": "/ignats-tasks/static/js/main.34c9ac72.js.map"
+    "main.282ed36c.css.map": "/ignats-tasks/static/css/main.282ed36c.css.map",
+    "main.260a1c90.js.map": "/ignats-tasks/static/js/main.260a1c90.js.map"
   },
   "entrypoints": [
-    "static/css/main.43e70093.css",
-    "static/js/main.34c9ac72.js"
+    "static/css/main.282ed36c.css",
+    "static/js/main.260a1c90.js"
   ]
 }
