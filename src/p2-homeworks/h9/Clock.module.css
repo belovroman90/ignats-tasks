@@ -1,0 +1,17 @@
+.container {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stringTime {
+    height: 30px;
+    display: inline-block;
+    font-size: 1.1rem;
+}
+
+.stringDate {
+    height: 30px;
+    font-size: 1.1rem;
+}
