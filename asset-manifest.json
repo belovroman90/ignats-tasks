@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/ignats-tasks/static/css/main.aaca4957.css",
-    "main.js": "/ignats-tasks/static/js/main.9488897a.js",
+    "main.css": "/ignats-tasks/static/css/main.d52849da.css",
+    "main.js": "/ignats-tasks/static/js/main.20b7b7d0.js",
     "static/media/1476.gif": "/ignats-tasks/static/media/1476.c42ba7a5e7359165df51.gif",
+    "static/media/pencil 1.png": "/ignats-tasks/static/media/pencil 1.40b150c22ef6ac81b9c5.png",
     "static/media/icons8-moon.svg": "/ignats-tasks/static/media/icons8-moon.037702b062b1731b7692.svg",
     "index.html": "/ignats-tasks/index.html",
-    "main.aaca4957.css.map": "/ignats-tasks/static/css/main.aaca4957.css.map",
-    "main.9488897a.js.map": "/ignats-tasks/static/js/main.9488897a.js.map"
+    "main.d52849da.css.map": "/ignats-tasks/static/css/main.d52849da.css.map",
+    "main.20b7b7d0.js.map": "/ignats-tasks/static/js/main.20b7b7d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaca4957.css",
-    "static/js/main.9488897a.js"
+    "static/css/main.d52849da.css",
+    "static/js/main.20b7b7d0.js"
   ]
 }
